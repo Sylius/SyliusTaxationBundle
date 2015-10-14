@@ -4,4 +4,6 @@
 sylius:
   form:
     tax_category:
-      description: Descrição
+      name: Name
+    tax_rate:
+      name: Name
