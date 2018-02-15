@@ -7,8 +7,8 @@ sylius:
             name: Име
             description: Опис
         tax_rate:
-            category: Категорија
+            category: Категорија пореске стопе
             name: Име
-            amount: Износ
-            included_in_price: Вклучено во цената?
+            amount: Количина
+            included_in_price: Укљуцен у цену?
             calculator: Калкулатор
