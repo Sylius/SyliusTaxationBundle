@@ -21,7 +21,7 @@ use Symfony\Component\DependencyInjection\Definition;
 
 final class SyliusTaxationExtensionTest extends AbstractExtensionTestCase
 {
-    /** @test */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function it_autoconfigures_tax_calculator_with_attribute(): void
     {
         $this->container->setDefinition(
