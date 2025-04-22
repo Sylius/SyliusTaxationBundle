@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 namespace Sylius\Bundle\TaxationBundle\Tests\DependencyInjection;
 
+use PHPUnit\Framework\Attributes\Test;
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractExtensionTestCase;
 use Sylius\Bundle\TaxationBundle\Attribute\AsTaxCalculator;
 use Sylius\Bundle\TaxationBundle\DependencyInjection\SyliusTaxationExtension;
@@ -21,7 +22,7 @@ use Symfony\Component\DependencyInjection\Definition;
 
 final class SyliusTaxationExtensionTest extends AbstractExtensionTestCase
 {
-    #[\PHPUnit\Framework\Attributes\Test]
+    #[Test]
     public function it_autoconfigures_tax_calculator_with_attribute(): void
     {
         $this->container->setDefinition(
