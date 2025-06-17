@@ -20,8 +20,8 @@ sylius:
             min_length: 'Il nome della tassa deve essere lungo almeno 1 carattere.|Il nome della tassa deve essere lungo almeno {{ limit }} caratteri.'
             max_length: 'Il nome della tassa non deve essere più lungo di 1 carattere.|Il nome della tassa non deve essere più lungo di {{ limit }} caratteri.'
         amount:
-            invalid: 'L\'importo della tassa non è valido.'
-            not_blank: 'Per favore inserisci l\'importo della tassa.'
+            invalid: 'L''importo della tassa non è valido.'
+            not_blank: 'Per favore inserisci l''importo della tassa.'
         calculator:
             not_blank: 'Per favore seleziona il calcolatore della tassa.'
         zone:
