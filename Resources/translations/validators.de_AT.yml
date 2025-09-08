@@ -23,13 +23,13 @@ sylius:
             invalid: 'Der Steuersatzbetrag ist ungültig.'
             not_blank: 'Bitte geben Sie den Steuersatzbetrag ein.'
         calculator:
-            not_blank: 'Bitte wählen Sie einen Steuerberechner aus.'
+            not_blank: 'Bitte wählen Sie einen Steuerrechner aus.'
         zone:
             not_blank: 'Bitte wählen Sie eine Steuerzone aus.'
         code:
             max_length: 'Der Code darf höchstens {{ limit }} Zeichen lang sein.'
-            not_blank: 'Bitte geben Sie den Steuersatzcode ein.'
-            regex: 'Der Steuersatzcode darf nur aus Buchstaben, Zahlen, Bindestrichen und Unterstrichen bestehen.'
+            not_blank: 'Bitte geben Sie den Code des Steuersatzes ein.'
+            regex: 'Der Code des Steuersatzes darf nur aus Buchstaben, Zahlen, Bindestrichen und Unterstrichen bestehen.'
             unique: 'Der Steuersatz mit dem angegebenen Code existiert bereits.'
         date:
-            greater_than_start_date: 'Der Steuersatz darf nicht vor seinem Startdatum enden.'
+            greater_than_start_date: 'Der Steuersatz sollte nicht vor seinem Startdatum enden.'
